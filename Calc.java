@@ -1,22 +1,22 @@
 public class Calc {
 
-  public int x;
-  public int y;
+  public float x;
+  public float y;
 
-  public Calc(int x, int y) {
+  public Calc(float x, float y) {
     this.x = x;
     this.y = y;
   }
 
-  public int sum() {
+  public float sum() {
     return this.x + this.y;
   }
 
-  public int diff() {
+  public float diff() {
     return this.x - this.y;
   }
 
-  public int product() {
+  public float product() {
     return this.x * this.y;
   }
 
@@ -26,6 +26,6 @@ public class Calc {
 
   public static void main(String[] args) {
     Calc testCalc = new Calc(10,6);
-    System.out.println(testCalc.product());
+    System.out.println(testCalc.sum());
   }
 }
