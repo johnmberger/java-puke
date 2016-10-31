@@ -20,12 +20,12 @@ public class Calc {
     return this.x * this.y;
   }
 
-  public int quotient() {
+  public float quotient() {
     return this.x / this.y;
   }
 
   public static void main(String[] args) {
-    Calc testCalc = new Calc(5,6);
+    Calc testCalc = new Calc(10,6);
     System.out.println(testCalc.product());
   }
 }
